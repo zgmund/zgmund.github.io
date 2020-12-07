@@ -29,7 +29,7 @@
           <div class="col align-self-start">
           </div>
           <div class="col align-self-center">        
-              <a href="mailto:contact@zgmund.com">
+              <a href="mailto:contact@zgmund.com" data-toggle="tooltip" title="e-mail us" data-placement="bottom" >
                 <img class="zgmund-logo" src="images/zgmund_logo.svg" alt="contact@zgmund.com" />
               </a>
           </div>
@@ -42,11 +42,16 @@
 
     <script>
 
-      $('a').click( function(e) { 
-        appInsights.trackEvent({name:"mailto-click"}); 
-        return true; 
-      });
+      $(function () {
 
+        $('[data-toggle="tooltip"]').tooltip();
+
+        $('a').click( function(e) { 
+          appInsights.trackEvent({name:"mailto-click"}); 
+          return true; 
+        });
+      })
+      
     </script>
   </body>
 </html>
