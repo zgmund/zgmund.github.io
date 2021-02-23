@@ -1,0 +1,21 @@
+# Site settings
+title: Zgmund
+description: Zgmund
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+url: https://zgmund.com
+
+# User settings
+username: Zgmund
+user_description: Zgmund integrates with your products to provide a groundbreaking behavioral and emotional grasp of reality. 
+user_title: Psychological API
+avatar_img_path: "/assets/img/AssetZgmund.png"
+email: anon@anon.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
