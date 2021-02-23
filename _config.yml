@@ -1,8 +1,9 @@
 # Site settings
-title: Zgmund
-description: Zgmund
+title: Zgmund: Psychological API
+description: Integrates with your products to provide a groundbreaking behavioral and emotional grasp of reality.
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 url: https://zgmund.com
+keywordslist: psychological api, psychologic api, psychological AI, emotional API
 
 # User settings
 username: Zgmund
